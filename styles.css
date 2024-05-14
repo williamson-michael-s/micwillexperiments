@@ -90,3 +90,37 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Contact Section Styling */
+#contact {
+    background: #e9ecef;
+    border-top: 2px solid #333;
+    padding: 20px;
+}
+
+#contact h3 {
+    color: #333;
+}
+
+#contact p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+#contact ul {
+    margin-top: 10px;
+}
+
+#contact li {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+#contact a {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
