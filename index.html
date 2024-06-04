@@ -1,61 +1,43 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Michael S. Williamson Portfolio</title>
-    <meta name="description" content="Portfolio Page for Michael S. Williamson, specializing in IT, cybersecurity, and project management.">
-    <meta name="keywords" content="portfolio, Michael S Williamson, IT, cybersecurity, technician, project management">
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming you will add a CSS file for styling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="background-image"></div>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#media">Media</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Michael S. Williamson</h1>
-        <h2>Helpdesk, Coding, Project Management</h2>
+        <h1>Welcome to My Portfolio</h1>
     </header>
-
-    <main>
-        <section id="about">
-            <h3>About Me</h3>
-            <p>Description about your background, experience, and skills.</p>
-        </section>
-
-        <section id="projects">
-            <h3>Projects</h3>
-            <p>Details of your projects. Could include links to GitHub, project write-ups, etc.</p>
-        </section>
-
-        <section id="media">
-            <h3>Media Appearances</h3>
-            <p>Check out some of the media coverage and features that highlight my involvement in technology and education:</p>
-            <ul>
-                <li>
-                    <strong>Wenatchee Valley College Commercial:</strong> 
-                    <p>I appeared in a commercial for Wenatchee Valley College, discussing the impact of education on career development.</p>
-                    <a href="https://www.youtube.com/watch?time_continue=1&v=3l9aSsz6KC8&embeds_referring_euri=https%3A%2F%2Fwww.bing.com%2F&embeds_referring_origin=https%3A%2F%2Fwww.bing.com&source_ve_path=Mjg2NjY&feature=emb_logo" target="_blank">Watch the Commercial</a>
-                </li>
-                <li>
-                    <strong>CompTIA Blog Feature:</strong> 
-                    <p>A blog post by CompTIA detailing my transition from a long-time retail career into the IT industry with the help of CompTIA certifications.</p>
-                    <a href="https://www.comptia.org/blog/long-time-retail-pro-makes-jump-to-it-with-comptia" target="_blank">Read the Blog Post</a>
-                </li>
-            </ul>
-        </section>
-    </main>
-
-    <footer>
-        <p>© 2024 Michael S. Williamson. All rights reserved.</p>
-    </footer>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a>
+                <ul class="dropdown">
+                    <li><a href="portfolio1.html">Project 1</a></li>
+                    <li><a href="portfolio2.html">Project 2</a></li>
+                    <li><a href="portfolio3.html">Project 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Information about me.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Select a project from the dropdown menu.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Contact details here.</p>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
-
-
 
 
