@@ -77,13 +77,23 @@ nav ul li:hover .dropdown {
     margin-bottom: 20px;
 }
 
-section, .links, #portfolio, #contact {
+section, .links {
     max-width: 900px;
     margin: 20px auto;
     padding: 40px 20px;
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio, #contact {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside these sections */
 }
 
 .about-image {
@@ -144,4 +154,3 @@ aside.links ul li a {
 aside.links ul li a:hover {
     color: #575757;
 }
-
