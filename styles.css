@@ -65,15 +65,31 @@ nav ul li:hover .dropdown {
     display: block;
 }
 
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
 section {
+    flex: 1;
     padding: 40px 20px;
     background: #ffffff;
-    margin: 20px auto;
+    margin: 20px;
     border-radius: 10px;
     text-align: left;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
+}
+
+aside.links {
+    flex: 0 0 200px;
     padding: 20px;
+    background: #f8f8f8;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .about-image {
@@ -96,7 +112,7 @@ p {
     font-size: 1.2em;
     line-height: 1.5;
     color: #555;
-    text-indent: 20px; /* Indent the first line of each paragraph */
+    text-indent: 20px;
     margin-bottom: 20px;
 }
 
@@ -114,6 +130,25 @@ button {
 
 button:hover {
     background-color: #575757;
+}
+
+aside.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside.links ul li {
+    margin-bottom: 10px;
+}
+
+aside.links ul li a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+aside.links ul li a:hover {
+    color: #575757;
 }
 
 
