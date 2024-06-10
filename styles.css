@@ -1,10 +1,9 @@
-dbody, html {
+body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
     height: 100%;
     width: 100%;
-    max-width: 900px
     overflow-x: hidden;
 }
 
@@ -69,9 +68,8 @@ nav ul li:hover .dropdown {
 .main-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 900px; /* Set max-width to 900px */
     margin: 20px auto;
-    max-width: 900px
     padding: 0 20px;
 }
 
