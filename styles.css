@@ -67,7 +67,7 @@ nav ul li:hover .dropdown {
 
 section {
     padding: 60px 20px;
-    background: rgba(255, 255, 255, 0.5);
+    background: #ffffff; /* Solid white background */
     margin: 20px;
     border-radius: 10px;
 }
