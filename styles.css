@@ -65,30 +65,23 @@ nav ul li:hover .dropdown {
     display: block;
 }
 
+.content-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 .main-content {
     display: flex;
     justify-content: space-between;
-    max-width: 900px; /* Set max-width to 900px */
-    margin: 20px auto;
-    padding: 0 20px;
+    margin-bottom: 20px;
 }
 
-section {
-    flex: 1;
+section, .links, #portfolio, #contact {
+    max-width: 900px;
+    margin: 20px auto;
     padding: 40px 20px;
     background: #ffffff;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: left;
-    max-width: 900px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-aside.links {
-    flex: 0 0 200px;
-    padding: 20px;
-    background: #f8f8f8;
-    margin: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
