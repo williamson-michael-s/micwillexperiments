@@ -65,7 +65,7 @@ nav ul li:hover .dropdown {
     display: block;
 }
 
-.main-content {
+.content-wrapper {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -74,7 +74,7 @@ nav ul li:hover .dropdown {
 }
 
 section {
-    flex: 1;
+    flex: 2;
     padding: 40px 20px;
     background: #ffffff;
     margin: 20px;
@@ -84,7 +84,7 @@ section {
 }
 
 aside.links {
-    flex: 0 0 200px;
+    flex: 1;
     padding: 20px;
     background: #f8f8f8;
     margin: 20px;
@@ -150,5 +150,4 @@ aside.links ul li a {
 aside.links ul li a:hover {
     color: #575757;
 }
-
 
