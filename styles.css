@@ -67,11 +67,41 @@ nav ul li:hover .dropdown {
 
 section {
     padding: 60px 20px;
-    background: #ffffff; /* Solid white background */
+    background: #ffffff;
     margin: 20px;
     border-radius: 10px;
+    text-align: center; /* Center align text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
 }
 
 h2 {
     margin-top: 0;
+    font-size: 2em;
+    color: #333;
+    text-transform: uppercase; /* Make text uppercase */
+    letter-spacing: 2px; /* Add spacing between letters */
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555;
+    max-width: 800px; /* Limit the width of text */
+    margin: 0 auto; /* Center the text block */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #575757;
 }
