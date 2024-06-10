@@ -66,12 +66,13 @@ nav ul li:hover .dropdown {
 }
 
 section {
-    padding: 60px 20px;
+    padding: 40px 20px;
     background: #ffffff;
-    margin: 20px;
+    margin: 20px auto; /* Center the sections */
     border-radius: 10px;
     text-align: center; /* Center align text */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+    max-width: 800px; /* Limit the width of sections */
 }
 
 h2 {
@@ -86,7 +87,6 @@ p {
     font-size: 1.2em;
     line-height: 1.5;
     color: #555;
-    max-width: 800px; /* Limit the width of text */
     margin: 0 auto; /* Center the text block */
 }
 
